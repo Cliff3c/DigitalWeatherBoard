@@ -47,6 +47,7 @@ Image Attribution and License Information
             <div id="current-conditions"></div>
             <div id="forecast" class="forecast"></div>
             <div id="location"></div>
+            <a href="settings/settings.php" class="tiny-link">Settings</a>
         </div>
     </div>
     <script src="script.js?v=" id="cacheBuster"></script>

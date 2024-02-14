@@ -47,6 +47,9 @@
         </tr>
     </table>
     <button id="saveSettings">Save Settings</button>
+    <br>
+    <p><button onclick="location.href='../index.php'" type="button">Back to Weather</button> <button onclick="location.href='../img/Images.php'" type="button">Image Attributes</button>
+
 
     <script src="settings.js"></script>
 </body>

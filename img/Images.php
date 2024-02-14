@@ -28,5 +28,6 @@
         Photo by <a href="https://unsplash.com/@eutahm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Eutah Mizushima</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-raindrops-F-t5EpfQNpk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
     </p>
     <h5>Images gathered from <b>Unsplash</b> are made to be used freely. For more information, please refer to the <a href="https://unsplash.com/license">License</a> page for more details.</h5>
+    <p><button onclick="location.href='../index.php'" type="button">Back to Weather</button> <button onclick="location.href='../settings/settings.php'" type="button">Settings</button>
 </body>
 </html>

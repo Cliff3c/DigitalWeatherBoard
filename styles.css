@@ -81,3 +81,20 @@ body {
     align-items: center;
 }
 
+.tiny-link {
+    position: absolute;
+    right: 0;
+    top: 0; /* Adjust as needed */
+    font-size: 10px; /* Adjust the font size as needed */
+    color: transparent; /* Make the text transparent */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Add a smooth color transition */
+}
+
+.tiny-link:hover {
+    color: #ccc; /* Light gray color on hover */
+    text-decoration: underline; /* Underline on hover for visibility */
+}
+
+
+
