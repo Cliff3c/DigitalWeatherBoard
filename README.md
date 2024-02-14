@@ -17,9 +17,10 @@ To use Digital Weather Board, follow these steps:
 2. Configure your settings by:
 	A. Manually editing the `settings/settings.json` file. Make sure to set your OpenWeatherMap API key, location, and temperature unit.
 	OR
-	B. Visiting the `settings/settings.html` page and updating the weather map settings on that page (PREFERRED METHOD).
-3. Open the `weather.html` file in a web browser.
+	B. Visiting the `settings/settings.php` page and updating the weather map settings on that page (PREFERRED METHOD).
+3. Open the `index.php` file from the root directory in a web browser.
 4. The weather information and forecast should now be displayed on your screen.
+5. If changes are necessary, hover the mouse pointer in the upper right corner of the see-through black box to reveal the hidden link to the `settings.php` page and make any necessary changes.
 
 ## Obtaining an OpenWeatherMap API Key
 
