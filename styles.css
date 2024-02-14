@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; /* Disable body scrolling */
+}
+
+.background-container {
+    position: fixed; /* Set to fixed for scrolling */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Set to viewport height */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; /* Adjust the width to your preference */
+}
+
+#weather-app {
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+#current-day {
+    font-size: 60px; /* Larger font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+}
+
+#full-date {
+    font-size: 22px; /* Adjust the font size for the full date */
+    color: #ccc; /* Set the color for the full date */
+    margin-bottom: 20px;
+}
+
+#location {
+    font-size: 30px; /* Larger font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+}
+
+#current-conditions {
+    font-size: 60px; /* Larger font size */
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow for better visibility */
+}
+
+#forecast {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Adjust the width to your preference */
+}
+
+.day {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px; /* Increase the horizontal spacing */
+    font-size: 18px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
